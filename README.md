@@ -52,8 +52,8 @@ The project demonstrates **robust transfer learning**, **domain shift detection*
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/biopsy-domain-shift-detection.git
-cd biopsy-domain-shift-detection
+git clone https://github.com/Adityar9764/ResPathShift.git
+cd ResPathShift
 ```
 
 ### 2. Install Requirements
@@ -64,8 +64,8 @@ pip install -r requirements.txt
 
 ### 3. Dataset Setup
 
-- Download the **training dataset** from this link: [🔗 Insert Training Dataset Link Here]
-- Manually upload your **external testing dataset** to your environment: [🔗 Insert External Dataset Link Here]
+- Download the **training dataset** from this link: https://www.kaggle.com/datasets/andrewmvd/lung-and-colon-cancer-histopathological-images
+- Manually upload your **external testing dataset** to your environment or you can use the dataset used in our project : https://figshare.com/articles/dataset/LungHist700_A_Dataset_of_Histological_Images_for_Deep_Learning_in_Pulmonary_Pathology/25459174?file=45206104
 - Datasets must follow the folder structure:
   ```
   ├── colon_image_sets/
