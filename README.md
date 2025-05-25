@@ -107,8 +107,9 @@ features-comparison-and-domain-shift-analysis_final.ipynb
 
 ## 📊 Example Evaluation Metrics
 
-- Training Accuracy: ~92%
-- External Accuracy (after fine-tuning): Improved by 4–8%
+- Training Accuracy: ~93%
+- Validation Testing Accuracy: ~88%
+- External Testing Accuracy: ~39 ( which improved to around 62% after applying CLAHE and fine-tuning )
 - Confusion Matrices and Misclassifications: Visualized and interpreted
 - Domain Shift: Covariate shift identified and resolved through contrast normalization
 
@@ -123,14 +124,11 @@ features-comparison-and-domain-shift-analysis_final.ipynb
 
 We sincerely thank the dataset creators for providing the **biopsy image datasets**, which were instrumental in the success of this project.
 
-- 📦 **Training Dataset Source:** [🔗 Insert Link Here]
-- 📦 **External Dataset Source:** [🔗 Insert Link Here]
+- 📦 **Training Dataset Source:** https://www.kaggle.com/datasets/andrewmvd/lung-and-colon-cancer-histopathological-images
+- 📦 **External Dataset Source:** https://figshare.com/articles/dataset/LungHist700_A_Dataset_of_Histological_Images_for_Deep_Learning_in_Pulmonary_Pathology/25459174?file=45206104
 
 We do not claim ownership of the image datasets used. All rights and credits belong to the respective authors and institutions.
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE), but does not apply to the datasets used. Please refer to the respective dataset sources for their licenses and terms of use.
 
 ---
 
