@@ -1,5 +1,3 @@
-
-```markdown
 # ResNet-based Biopsy Classification and Domain Shift Detection Network
 
 ## 🔬 Project Summary
@@ -11,28 +9,26 @@ The project demonstrates **robust transfer learning**, **domain shift detection*
 ## 📁 Repository Structure
 
 ```
-
 ├── app.py
-├── clean\_dataset.py
-├── dataset\_setup.py
-├── external\_testing.py
-├── external\_testing\_clahe.py
-├── external\_testing\_CM.py
-├── features-comparison-and-domain-shift-analysis\_final.ipynb
-├── Final\_external\_CM.py
-├── fine\_tune\_clahe\_model.py
-├── load\_model.py
+├── clean_dataset.py
+├── dataset_setup.py
+├── external_testing.py
+├── external_testing_clahe.py
+├── external_testing_CM.py
+├── features-comparison-and-domain-shift-analysis_final.ipynb
+├── Final_external_CM.py
+├── fine_tune_clahe_model.py
+├── load_model.py
 ├── misclassifiedImages.py
-├── prepare\_data.py
-├── prior\_shift\_testing.ipynb
-├── train\_model.py
-├── train\_model\_withoutshuffle.py
-├── validation\_testing.py
-├── validation\_testing\_CM.py
+├── prepare_data.py
+├── prior_shift_testing.ipynb
+├── train_model.py
+├── train_model_withoutshuffle.py
+├── validation_testing.py
+├── validation_testing_CM.py
 ├── visualizeImages.py
 └── requirements.txt
-
-````
+```
 
 ## 🚀 Key Features
 
@@ -58,7 +54,7 @@ The project demonstrates **robust transfer learning**, **domain shift detection*
 ```bash
 git clone https://github.com/yourusername/biopsy-domain-shift-detection.git
 cd biopsy-domain-shift-detection
-````
+```
 
 ### 2. Install Requirements
 
@@ -68,10 +64,9 @@ pip install -r requirements.txt
 
 ### 3. Dataset Setup
 
-* Download the **training dataset** from this link: \[🔗 Insert Training Dataset Link Here]
-* Manually upload your **external testing dataset** to your environment: \[🔗 Insert External Dataset Link Here]
-* Datasets must follow the folder structure:
-
+- Download the **training dataset** from this link: [🔗 Insert Training Dataset Link Here]
+- Manually upload your **external testing dataset** to your environment: [🔗 Insert External Dataset Link Here]
+- Datasets must follow the folder structure:
   ```
   ├── colon_image_sets/
   │   ├── colon_aca/
@@ -93,9 +88,8 @@ python train_model.py
 ### 5. Load and Test the Model
 
 Download the trained model:
-
-* \[🔗 resnet50\_biospy\_model\_clahe\_v2.h5 – Download Link]
-* \[🔗 resnet50\_biopsy\_model\_clahe\_finetuned\_final.h5 – Download Link]
+- [🔗 resnet50_biospy_model_clahe_v2.h5 – Download Link]
+- [🔗 resnet50_biopsy_model_clahe_finetuned_final.h5 – Download Link]
 
 Run inference and evaluate performance:
 
@@ -113,30 +107,32 @@ features-comparison-and-domain-shift-analysis_final.ipynb
 
 ## 📊 Example Evaluation Metrics
 
-* Training Accuracy: \~92%
-* External Accuracy (after fine-tuning): Improved by 4–8%
-* Confusion Matrices and Misclassifications: Visualized and interpreted
-* Domain Shift: Covariate shift identified and resolved through contrast normalization
+- Training Accuracy: ~92%
+- External Accuracy (after fine-tuning): Improved by 4–8%
+- Confusion Matrices and Misclassifications: Visualized and interpreted
+- Domain Shift: Covariate shift identified and resolved through contrast normalization
 
 ## 🧠 Key Insights
 
-* Domain adaptation significantly improves generalization.
-* CLAHE enhances visual consistency between datasets.
-* MMD and Wasserstein metrics quantify dataset drift effectively.
-* Visualizations help interpret complex model behavior and failures.
+- Domain adaptation significantly improves generalization.
+- CLAHE enhances visual consistency between datasets.
+- MMD and Wasserstein metrics quantify dataset drift effectively.
+- Visualizations help interpret complex model behavior and failures.
 
 ## ✅ Acknowledgments
 
 We sincerely thank the dataset creators for providing the **biopsy image datasets**, which were instrumental in the success of this project.
 
-* 📦 **Training Dataset Source:** \[🔗 Insert Link Here]
-* 📦 **External Testing Dataset Source:** \[🔗 Insert Link Here]
+- 📦 **Training Dataset Source:** [🔗 Insert Link Here]
+- 📦 **External Dataset Source:** [🔗 Insert Link Here]
 
 We do not claim ownership of the image datasets used. All rights and credits belong to the respective authors and institutions.
 
+## 📄 License
 
-> 🔍 *This project represents a unique and comprehensive exploration of machine learning's intersection with pathology, tackling both model accuracy and real-world generalization through domain shift detection.*
-> *ResNet meets Real-World Biopsy Image Variability.*
+This project is licensed under the [MIT License](LICENSE), but does not apply to the datasets used. Please refer to the respective dataset sources for their licenses and terms of use.
 
-```
+---
 
+> 🔍 *This project represents a unique and comprehensive exploration of machine learning's intersection with pathology, tackling both model accuracy and real-world generalization through domain shift detection.*  
+> _ResNet meets Real-World Biopsy Image Variability._
