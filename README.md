@@ -88,8 +88,8 @@ python train_model.py
 ### 5. Load and Test the Model
 
 Download the trained model:
-- [🔗 resnet50_biospy_model_clahe_v2.h5 – Download Link]
-- [🔗 resnet50_biopsy_model_clahe_finetuned_final.h5 – Download Link]
+- [🔗 resnet50_biospy_model_clahe_v2.h5 ]
+- [🔗 resnet50_biopsy_model_clahe_finetuned_final.h5 ]
 
 Run inference and evaluate performance:
 
